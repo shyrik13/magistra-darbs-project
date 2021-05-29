@@ -1,0 +1,12 @@
+{% extends 'layout.twig' %}
+
+{% block head_javascripts %}
+  <script src="./webgpu.bundle.js"></script>
+{% endblock %}
+
+{% block body %}
+  <h1>{{title}}</h1>
+  <p>Welcome to {{title}}</p>
+
+  <canvas id="webgpu-canvas" width="640" height="480"></canvas>
+{% endblock %}

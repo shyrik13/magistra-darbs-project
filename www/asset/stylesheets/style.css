@@ -1,0 +1,13 @@
+body > .container {
+    padding: 60px 15px 0;
+}
+
+nav {
+    padding: .5rem 1rem;
+}
+
+#rust-gl {
+    display: block;
+    margin: auto;
+    height: 200px;
+}
